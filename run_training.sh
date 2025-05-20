@@ -1,0 +1,16 @@
+python trainer/main.py \
+    --train_path feature/IEMOCAP_BERT_WAV2VEC_train.pkl \
+    --valid_path feature/IEMOCAP_BERT_WAV2VEC_val.pkl \
+    --test_path feature/IEMOCAP_BERT_WAV2VEC_test.pkl \
+    --save_path saved_models \
+    --model_name IEMOCAP_HemoGAT_min \
+    --hidden_dim 512 \
+    --num_classes 4 \
+    --num_layers 3 \
+    --fusion_type min \
+    --epochs 100 \
+    --lr 0.0001 \
+    --weight_decay 0.0005 \
+    --k_text 7 \
+    --k_audio 8 \
+    --seeds 42 123 456 789 101112
