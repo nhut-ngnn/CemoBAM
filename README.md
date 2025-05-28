@@ -111,7 +111,9 @@ bash run_eval.sh
 ```
 ## References
 [1] Nhat Truong Pham, SERVER: Multi-modal Speech Emotion Recognition using Transformer-based and Vision-based Embeddings (ICIIT), 2023. Available https://github.com/nhattruongpham/mmser.git.
+
 [2] Mustaqeem Khan, MemoCMT: Cross-Modal Transformer-Based Multimodal Emotion Recognition System (Scientific Reports), 2025. Available https://github.com/tpnam0901/MemoCMT.
+
 [3] Nhut Minh Nguyen, HemoGAT: Heterogeneous multi-modal emotion recognition with cross-modal transformer and graph attention network, 2025. Available https://github.com/nhut-ngnn/HemoGAT.
 
 ## Citation
