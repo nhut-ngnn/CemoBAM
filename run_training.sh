@@ -1,16 +1,16 @@
 python trainer/main.py \
-    --train_path feature/IEMOCAP_BERT_WAV2VEC_train.pkl \
-    --valid_path feature/IEMOCAP_BERT_WAV2VEC_val.pkl \
-    --test_path feature/IEMOCAP_BERT_WAV2VEC_test.pkl \
+    --train_path feature/ESD_BERT_WAV2VEC_train.pkl \
+    --valid_path feature/ESD_BERT_WAV2VEC_val.pkl \
+    --test_path feature/ESD_BERT_WAV2VEC_test.pkl \
     --save_path saved_models \
-    --model_name IEMOCAP_HemoGAT_min \
+    --model_name ESD_HemoGAT_mean \
     --hidden_dim 512 \
-    --num_classes 4 \
+    --num_classes 5 \
     --num_layers 3 \
-    --fusion_type min \
+    --fusion_type mean \
     --epochs 100 \
     --lr 0.0001 \
     --weight_decay 0.0005 \
-    --k_text 7 \
-    --k_audio 8 \
-    --seeds 42 123 456 789 101112
+    --k_text 5 \
+    --k_audio 4 \
+    --seeds 42
