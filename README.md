@@ -2,7 +2,7 @@
 <i>
   Official code repository for the manuscript 
   <b>"CemoBAM: Advancing Multimodal Emotion Recognition through Heterogeneous Graph Networks and Cross-Modal Attention Mechanisms"</b>, 
-  submitted to 
+  accepted to 
   <a href="https://sites.google.com/view/apnoms2025">The 25th Asia-Pacific Network Operations and Management Symposium Conference</a>.
 </i>
 
